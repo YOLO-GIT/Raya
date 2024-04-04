@@ -24,26 +24,45 @@
 </head>
 
 <body>
+    <!-- Text -->
     <header class="">
-        <h1 class="text-red-300">Selamat Hari Raya</h1>
+        <h1 id="text" class="text-white sm:text-5xl italic font-bold hover:underline raya-clip-path">Selamat
+            Hari Raya</h1>
     </header>
-
+    <!-- 3d Ketupat (For some reason) -->
     <div>
-        <div id="container3D" class="absolute top-0 left-0 w-max h-max"></div>
+        <div id="container3D" class="absolute top-0 left-0 w-max h-max mb-10"></div>
     </div>
-
+    <!-- Button -->
     <section class="flex flex-row justify-center mt-4">
         <a href="" class="bg-white text-green-500 hover:bg-green-500 hover:text-white py-2 px-4 rounded-full font-semibold
        transition duration-300 z-30">
             Get Started
         </a>
     </section>
-
+    <!-- Gif -->
     <div class="absolute inset-0 flex justify-center items-center">
         <img src="image/raya-4x-RIFE-RIFE3.1-40fps.gif" alt="Stunning GIF" class="gif" />
     </div>
-
+    <!-- JS Script -->
     <script type="module" src="js/main.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+        const text = new SplitType('#text');
+        let characters = document.querySelectorAll('.char');
+
+        for (i = 0; i < characters.length; i++) {
+            characters[i].classList.add('translate-y-full');
+        }
+
+        gsap.to('.char', {
+            y: 0,
+            stagger: 0.05,
+            delay: 0.02,
+            duration: 0.5,
+        })
+    </script>
 </body>
 
 </html>
