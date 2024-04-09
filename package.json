@@ -3,6 +3,7 @@
     "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "dependencies": {
+    "taos": "^1.0.5",
     "three": "^0.163.0"
   },
   "devDependencies": {
