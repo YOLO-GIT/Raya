@@ -807,10 +807,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   margin-top: 1rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -1033,22 +1029,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .transform-none {
   transform: none;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.animate-bounce {
-  animation: bounce 1s infinite;
 }
 
 .touch-auto {
