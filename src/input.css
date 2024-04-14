@@ -3,6 +3,60 @@
 @tailwind utilities;
 
 @layer components {
+
+    /* For .parallax section */
+    .parallax {
+        @apply relative flex justify-center items-center;
+        height: 180vh;
+        /* Adjust as needed */
+    }
+
+    /* For .parallax section */
+    .parallax_mid {
+        @apply relative flex justify-center items-center;
+        height: 90vh;
+        /* Adjust as needed */
+    }
+
+    /* For .parallax section */
+    .parallax_mobile {
+        @apply relative flex justify-center items-center;
+        height: 62vh;
+        /* min-width: 320px */
+        /* Adjust as needed */
+    }
+
+    .parallax_second {
+        @apply relative flex justify-center items-center;
+        height: 220vh;
+        /* Adjust as needed */
+    }
+
+    .parallax_third {
+        @apply relative flex justify-center items-center;
+        height: 220vh;
+        /* Adjust as needed */
+    }
+
+    /* For images inside .parallax */
+    .parallax img {
+        @apply absolute top-0 left-0 w-full pointer-events-none;
+    }
+
+    /* For images inside .parallax */
+    .parallax_mid img {
+        @apply absolute top-0 left-0 w-full pointer-events-none;
+    }
+
+    /* For images inside .parallax */
+    .parallax_mobile img {
+        @apply absolute top-0 left-0 w-full pointer-events-none;
+    }
+
+    .parallax_third img {
+        @apply absolute top-0 left-0 w-full pointer-events-none;
+    }
+
     .gif {
         width: 100%;
         height: 100%;
@@ -14,6 +68,12 @@
 
     .raya-clip-path {
         clip-path: polygon(0 3%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    /* For .sec section */
+    .sec {
+        @apply relative bg-white p-20;
+        /* Adjust padding as needed */
     }
 
     .background-animate {
@@ -34,5 +94,106 @@
         50% {
             background-position: 100% 50%;
         }
+    }
+
+    /* Word seperator */
+    #text:has(.fancy:hover) .word:not(.fancy:hover) {
+        opacity: 0.2;
+    }
+
+    .fancy span {
+        display: inline-block;
+    }
+
+    .fancy>.outer {
+        transition: transform 350ms ease;
+    }
+
+    .fancy:hover>.outer {
+        transition-duration: 800ms;
+    }
+
+    /* Before  */
+
+    .fancy>.outer:nth-child(1) {
+        transform: translate(80%, -60%) rotate(8deg);
+    }
+
+    .fancy>.outer:nth-child(2) {
+        transform: translate(-40%, 20%) rotate(4deg);
+    }
+
+    .fancy>.outer:nth-child(3) {
+        transform: translate(-10%, 60%) rotate(-6deg);
+    }
+
+    .fancy>.outer:nth-child(4) {
+        transform: translate(0%, 8%) rotate(-8deg);
+    }
+
+    .fancy>.outer:nth-child(5) {
+        transform: translate(0%, -20%) rotate(5deg);
+    }
+
+    .fancy>.outer:nth-child(6) {
+        transform: translate(0%, 20%) rotate(-3deg);
+    }
+
+    .fancy>.outer:nth-child(7) {
+        transform: translate(0%, -40%) rotate(-5deg);
+    }
+
+    .fancy>.outer:nth-child(8) {
+        transform: translate(0%, 15%) rotate(10deg);
+    }
+
+    .fancy>.outer:nth-child(9) {
+        transform: translate(0%, -50%) rotate(8deg);
+    }
+
+    .fancy>.outer:nth-child(10) {
+        transform: translate(0%, 15%) rotate(-6deg);
+    }
+
+    /* After */
+
+    .fancy:hover>.outer:nth-child(1) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(2) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(3) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(4) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(5) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(6) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(7) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(8) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(9) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(10) {
+        transform: translate(0%, 0%);
     }
 }
