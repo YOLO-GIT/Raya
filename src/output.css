@@ -974,6 +974,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   margin-top: 1.25rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1678,6 +1682,18 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-14 {
+  gap: 3.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -3010,7 +3026,7 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 120vh;
     /* Adjust as needed */
   }
 

@@ -14,7 +14,7 @@
     /* For .parallax section */
     .parallax_mid {
         @apply relative flex justify-center items-center;
-        height: 90vh;
+        height: 120vh;
         /* Adjust as needed */
     }
 
