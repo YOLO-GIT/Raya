@@ -3,13 +3,14 @@ module.exports = {
   content: {
     relative: true,
     transform: (content) => content.replace(/taos:/g, ''),
-    files: ["./*.{html,js}", "./**/*.{html,js,php}"],
+    files: ["./*.{html,js}", "./**/*.{html,js,php}", "./node_modules/flowbite/**/*.js"],
   },
   theme: {
     extend: {},
   },
   plugins: [
-    require('taos/plugin')
+    require('taos/plugin'),
+    require('flowbite/plugin')
   ],
   safelist: [
     '!duration-[0ms]',
