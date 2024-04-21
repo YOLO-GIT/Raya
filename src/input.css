@@ -202,7 +202,7 @@
     }
 
     html.is-animating .transition-fade{
-        opacity: 1;
-        transition: 500ms;
+        opacity: 0;
+        transition: 1500ms;
     }
 }
