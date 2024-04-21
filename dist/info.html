@@ -22,22 +22,27 @@
     <script>
         document.documentElement.classList.add('js')
     </script>
+    <!-- SWUP -->
+    <script src="https://unpkg.com/swup@4"></script>
     <link rel="stylesheet" href="../src/output.css" />
     <title>Apa itu Raya?</title>
 </head>
 
 <body class="overflow-x-hidden">
 
-    <section
+    <div class="absolute inset-0 flex justify-center items-center ">
+        <img src="../image/raya-4x-RIFE-RIFE3.1-40fps.gif" alt="Stunning GIF" class="gif transition-fade" />
+    </div>
+    <!-- <section
         class="overflow-x-hidden overflow-y-hidden parallax_mobile lg:parallax md:parallax_mid xl:parallax_second 2xl:parallax_third">
         <img src="../image/bg.png" id="bg" alt="bg" />
         <img src="../image/ayat.png" id="ayat" alt="ayat" />
         <img src="../image/ketupat.png" id="ketupat" alt="ketupat" />
         <img src="../image/moon.png" id="moon" alt="moon" />
         <img src="../image/mosque.png" id="mosque" alt="mosque" />
-    </section>
+    </section> -->
 
-    <section class="sec bg-gradient-to-r from-green-500 to-blue-800 text-white text-center py-8 background-animate">
+    <section class="bg-gradient-to-r from-green-500 to-blue-800 text-white text-center py-8 background-animate">
         <div class="max-w-2xl mx-auto">
             <h1 class="text-4xl font-bold mb-4 mt-4 animate__animated animate__fadeInUp">
                 Sufi/@YOLO-GIT
@@ -273,6 +278,10 @@
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
     <!-- TAOS Body -->
     <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+    <!-- SWUP Body -->
+    <script>
+        const swup = new Swup();
+    </script>
     <!-- Custom JS -->
     <script src="../js/custom.js"></script>
 </body>

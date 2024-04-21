@@ -196,4 +196,13 @@
     .fancy:hover>.outer:nth-child(10) {
         transform: translate(0%, 0%);
     }
+
+    .transition-fade{
+        opacity: 1;
+    }
+
+    html.is-animating .transition-fade{
+        opacity: 1;
+        transition: 500ms;
+    }
 }
