@@ -19,6 +19,7 @@
     <meta name="twitter:card" content="Raya is here!" />
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <title>R A Y A</title>
+    <script src="https://unpkg.com/swup@4"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="src/output.css" />
 </head>
@@ -31,7 +32,7 @@
     </header>
     <!-- 3d Ketupat (For some reason) -->
     <div>
-        <div id="container3D" class="absolute top-0 left-0 w-max h-max mb-10"></div>
+        <div id="container3D" class="absolute top-0 left-0 w-max h-max mb-10 2xl:-mt-40"></div>
     </div>
     <!-- Button -->
     <section class="flex flex-row justify-center mt-4 transition-fade">
@@ -62,6 +63,9 @@
             delay: 0.02,
             duration: 0.5,
         })
+    </script>
+    <script>
+        const swup = new Swup();
     </script>
 </body>
 
