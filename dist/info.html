@@ -22,6 +22,8 @@
     <script>
         document.documentElement.classList.add('js')
     </script>
+    <!-- SWUP Head -->
+    <script src="https://unpkg.com/swup@4"></script>
     <link rel="stylesheet" href="../src/output.css" />
     <title>Apa itu Raya?</title>
 </head>
@@ -40,6 +42,7 @@
                 hari raya kepada setiap umat
                 Islam. Sebelum kita memulakan sambutan raya yang mulia ini...
             </p>
+            <br class="sm:hidden">
             <p class="text-md sm:text-lg text-gray-200 px-2">
                 Apa sebenarnya <span
                     class="font-extrabold italic inline-block hover:animate-bounce ease-in">"RAYA"</span> ini?
@@ -83,7 +86,7 @@
                     </div>
                 </div>
                 <!-- Description -->
-                <div class="mt-4 md:mt-0">
+                <div class="mt-4 md:mt-0 text-center sm:text-left">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Hari Raya
                         Aidilfitri</h2>
                     <p class="mb-6 font-semibold text-gray-500 md:text-lg">Hari Raya Aidilfitri
@@ -111,17 +114,19 @@
             <!-- Description -->
             <div
                 class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-                <div class="mt-4 md:mt-0">
+                <div class="mt-4 md:mt-0 text-center sm:text-left">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-500 dark:text-white">Bagaimanakah
                         Hari Raya Aidilfitri disambut?</h2>
-                    <p class="mb-6 font-semibold text-gray-500 md:text-lg dark:text-gray-400">Sambutan dan kemeriahan Hari
+                    <p class="mb-6 font-semibold text-gray-500 md:text-lg dark:text-gray-400">Sambutan dan kemeriahan
+                        Hari
                         Raya Aidilfitri adalah bergantung kepada kedudukan setempat umat Islam, kebiasaannya hari raya
                         disambut sekitar satu hingga tiga hari. Umat Islam adalah tidak dibenarkan untuk berpuasa pada
                         pertama hari raya, kerana hari ini dianggap sebagai hari kemenangan setelah berusaha yang
                         terbaik menunaikan ibadah berpuasa selama sebulan. Oleh itu, keluarga Islam di seluruh dunia
-                        meraikannya dengan hidangan tradisi, ziarah-menziarahi dan orang ramai menderma untuk kebajikan.</p>
+                        meraikannya dengan hidangan tradisi, ziarah-menziarahi dan orang ramai menderma untuk kebajikan.
+                    </p>
                     <a href="https://www.twinkl.com/teaching-wiki/hari-raya-aidilfitri#id_fb0nrou7v"
-                        class="inline-flex italic hover:animate-pulse items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-blue-900">
+                        class="hidden sm:inline-flex italic hover:animate-pulse items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-blue-900">
                         Sourced
                         <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg">
@@ -137,6 +142,18 @@
                     duration-500 hover:shadow-lg">
                     <img data-modal-target="default-two" data-modal-toggle="default-two" class="rounded-lg"
                         src="../image/img_two.jpg" alt="dashboard image">
+                </div>
+                <div class="mt-4 md:mt-0 text-center sm:text-left">
+                    <a href="https://www.twinkl.com/teaching-wiki/hari-raya-aidilfitri#id_fb0nrou7v"
+                        class="inline-flex items-center sm:hidden italic hover:animate-pulse text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-blue-900">
+                        Sourced
+                        <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
                 </div>
                 <!-- Modal -->
                 <div id="default-two" tabindex="-1" aria-hidden="true"
@@ -252,9 +269,12 @@
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8">
-        <div class="max-w-6xl mx-auto text-center sm:text-left">
+        <div class="max-w-6xl flex flex-row justify-between mx-auto text-center sm:text-left">
             <div>
-                <p class="text-lg font-mono">&copy; 2024 YOLO-GIT PROPERTY</p>
+                <p class="text-xs sm:text-lg font-mono">&copy; 2024 YOLO-GIT PROPERTY</p>
+            </div>
+            <div>
+                <a href="../index.html" class="text-xs sm:text-lg font-mono transition-fade">Return to First Page</a>
             </div>
         </div>
     </footer>
@@ -263,6 +283,10 @@
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
     <!-- TAOS Body -->
     <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+    <!-- SWUP Body -->
+    <script>
+        const swup = new Swup();
+    </script>
     <!-- Custom JS -->
     <script src="../js/custom.js"></script>
 </body>
