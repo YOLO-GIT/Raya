@@ -51,3 +51,7 @@ window.addEventListener('scroll', () => {
     moon.style.marginTop = value * -0.3 + 'px'; // Adjust the multiplier as needed
     mosque.style.marginTop = value * 0.3 + 'px'; // Adjust the multiplier as needed
 });
+
+document.getElementById("toggleButton").addEventListener("click", function () {
+    document.getElementById("secretTwo").classList.toggle("hidden");
+});
