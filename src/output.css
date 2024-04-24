@@ -1655,10 +1655,6 @@ html.is-animating .transition-fade {
   height: max-content;
 }
 
-.h-60 {
-  height: 15rem;
-}
-
 .max-h-full {
   max-height: 100%;
 }
@@ -1687,6 +1683,10 @@ html.is-animating .transition-fade {
   width: 20rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -1706,18 +1706,6 @@ html.is-animating .transition-fade {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-60 {
-  width: 15rem;
-}
-
-.w-9 {
-  width: 2.25rem;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .max-w-2xl {
@@ -2876,6 +2864,11 @@ html.is-animating .transition-fade {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
 .bg-slate-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
@@ -2893,16 +2886,6 @@ html.is-animating .transition-fade {
 
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
-}
-
-.bg-slate-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
-}
-
-.bg-slate-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
