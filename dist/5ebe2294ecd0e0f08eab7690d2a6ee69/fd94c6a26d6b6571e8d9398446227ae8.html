@@ -25,35 +25,45 @@
         </div>
     </section>
 
-    <section class="bg-white dark:bg-gray-900">
+    <section class="sec bg-slate-400">
         <h1
-            class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            class="mb-4 text-4xl flex flex-row justify-center text-center font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
             Parallax</h1>
     </section>
 
     <section
-        class="overflow-x-hidden overflow-y-hidden parallax_mobile lg:parallax md:parallax_mid xl:parallax_second 2xl:parallax_third">
-        <img src="../image/bg.png" id="bg" alt="bg" />
-        <img src="../image/ayat.png" id="ayat" alt="ayat" />
-        <img src="../image/ketupat.png" id="ketupat" alt="ketupat" />
-        <img src="../image/moon.png" id="moon" alt="moon" />
-        <img src="../image/mosque.png" id="mosque" alt="mosque" />
+        class="overflow-y-hidden overflow-x-hidden parallax_mobile lg:parallax md:parallax_mid xl:parallax_second 2xl:parallax_third">
+        <img src="../../image/bg.png" id="bg" alt="bg" />
+        <img src="../../image/ayat.png" id="ayat" alt="ayat" />
+        <img src="../../image/ketupat.png" id="ketupat" alt="ketupat" />
+        <img src="../../image/moon.png" id="moon" alt="moon" />
+        <img src="../../image/mosque.png" id="mosque" alt="mosque" />
     </section>
 
-    <section class="bg-white dark:bg-gray-900">
+    <section class="sec bg-white">
         <h1
-            class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            class="flex flex-row justify-center mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
             3d Model</h1>
     </section>
 
-    <section class="bg-white dark:bg-gray-900">
-        <div class="group">
+    <!-- 3D Model -->
+
+    <section class="sec bg-slate-400">
+        <div class="group flex flex-row justify-center">
             <h2 class="mb-4 text-4xl group-hover:hidden tracking-tight font-extrabold text-slate-900">
                 No Kirbo?</h2>
             <h2 class="mb-4 text-4xl hidden group-hover:block
                         tracking-tight font-extrabold text-slate-900 transition-fade">
-                Where did Kirbo go?</h2>
+                Find Kirbo...</h2>
         </div>
+    </section>
+
+    <!-- 3 Stuff -->
+    <section class="bg-white">
+       <div class="hidden lg:flex px-4 py-8 lg:py-16">
+           <img class="w-96 mx-auto transform transition-transform hover:scale-105 ease-in-out duration-500 hover:shadow-lg"
+               src="missing.png" alt="help me">
+       </div>
     </section>
 
     <!-- Footer -->
@@ -69,8 +79,8 @@
     </footer>
 
     <!-- Flowbite JS -->
-    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
-    <script src="../../js/custom.js"></script>
+    <script src="../../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="../../js/parallax.js"></script>
 </body>
 
 </html>
