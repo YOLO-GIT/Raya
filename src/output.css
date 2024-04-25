@@ -1531,6 +1531,22 @@ html.is-animating .transition-fade {
   margin-top: 2rem;
 }
 
+.-mt-40 {
+  margin-top: -10rem;
+}
+
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+
+.-mt-0 {
+  margin-top: -0px;
+}
+
+.-mt-14 {
+  margin-top: -3.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -4216,6 +4232,38 @@ html.is-animating .transition-fade {
     margin-right: 0px;
   }
 
+  .sm\:-mt-80 {
+    margin-top: -20rem;
+  }
+
+  .sm\:-mt-60 {
+    margin-top: -15rem;
+  }
+
+  .sm\:-mt-56 {
+    margin-top: -14rem;
+  }
+
+  .sm\:-mt-40 {
+    margin-top: -10rem;
+  }
+
+  .sm\:-mt-32 {
+    margin-top: -8rem;
+  }
+
+  .sm\:-mt-20 {
+    margin-top: -5rem;
+  }
+
+  .sm\:-mt-64 {
+    margin-top: -16rem;
+  }
+
+  .sm\:-mt-72 {
+    margin-top: -18rem;
+  }
+
   .sm\:inline-flex {
     display: inline-flex;
   }
@@ -4266,6 +4314,14 @@ html.is-animating .transition-fade {
     margin-top: 0px;
   }
 
+  .md\:-mt-20 {
+    margin-top: -5rem;
+  }
+
+  .md\:-mt-40 {
+    margin-top: -10rem;
+  }
+
   .md\:grid {
     display: grid;
   }
@@ -4303,16 +4359,28 @@ html.is-animating .transition-fade {
     margin-right: 0px;
   }
 
-  .lg\:-mt-40 {
-    margin-top: -10rem;
-  }
-
   .lg\:mb-8 {
     margin-bottom: 2rem;
   }
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:-mt-60 {
+    margin-top: -15rem;
+  }
+
+  .lg\:-mt-6 {
+    margin-top: -1.5rem;
+  }
+
+  .lg\:-mt-72 {
+    margin-top: -18rem;
+  }
+
+  .lg\:-mt-40 {
+    margin-top: -10rem;
   }
 
   .lg\:flex {
@@ -4361,6 +4429,18 @@ html.is-animating .transition-fade {
     margin-top: -10rem;
   }
 
+  .xl\:mt-40 {
+    margin-top: 10rem;
+  }
+
+  .xl\:-mt-20 {
+    margin-top: -5rem;
+  }
+
+  .xl\:-mt-52 {
+    margin-top: -13rem;
+  }
+
   .xl\:gap-0 {
     gap: 0px;
   }
@@ -4378,6 +4458,22 @@ html.is-animating .transition-fade {
 @media (min-width: 1536px) {
   .\32xl\:-mt-40 {
     margin-top: -10rem;
+  }
+
+  .\32xl\:-mt-20 {
+    margin-top: -5rem;
+  }
+
+  .\32xl\:-mt-60 {
+    margin-top: -15rem;
+  }
+
+  .\32xl\:-mt-56 {
+    margin-top: -14rem;
+  }
+
+  .\32xl\:-mt-52 {
+    margin-top: -13rem;
   }
 }
 
