@@ -12,5 +12,5 @@ window.addEventListener('scroll', () => {
     ayat.style.marginTop = value * -0.3 + 'px'; // Adjust the multiplier as needed
     ketupat.style.marginTop = value * -0.1 + 'px'; // Adjust the multiplier as needed
     moon.style.marginTop = value * -0.3 + 'px'; // Adjust the multiplier as needed
-    mosque.style.marginTop = value * -0.1 + 'px'; // Adjust the multiplier as needed
+    mosque.style.marginTop = value * 0.1 + 'px'; // Adjust the multiplier as needed
 });
