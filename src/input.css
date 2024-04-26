@@ -11,34 +11,34 @@
     /* For .parallax section */
     .parallax {
         @apply relative flex justify-center items-center;
-        height: 180vh;
+        height: 120vh;
         /* Adjust as needed */
     }
 
     /* For .parallax section */
     .parallax_mid {
         @apply relative flex justify-center items-center;
-        height: 120vh;
+        height: 60vh;
         /* Adjust as needed */
     }
 
     /* For .parallax section */
     .parallax_mobile {
         @apply relative flex justify-center items-center;
-        height: 62vh;
+        height: 42vh;
         /* min-width: 320px */
         /* Adjust as needed */
     }
 
     .parallax_second {
         @apply relative flex justify-center items-center;
-        height: 220vh;
+        height: 160vh;
         /* Adjust as needed */
     }
 
     .parallax_third {
         @apply relative flex justify-center items-center;
-        height: 220vh;
+        height: 170vh;
         /* Adjust as needed */
     }
 
