@@ -12,7 +12,9 @@
 
 - 3D MC Fireworks Table (Sketchfab. Owner: @CreativityShark) (URL: https://sketchfab.com/3d-models/mc-fireworks-table-423d99e4c1b441648c05b7ff73ec0ed1)
 
-- Audio
+- Audio: SELOKA HARI RAYA COVER (GUITAR INSTRUMENT) (URL: https://youtu.be/TbEddvIKBCE?si=wzh2GOds1H2Qk-rA)
+
+- GIF/Video: Selamat Hari Raya Aidilfitri (URL: https://youtu.be/j1FBxALtlOw?si=NbIkR710RmX4dYoy)
 
 # License
 
