@@ -42,3 +42,23 @@ document.getElementById("toggleButton").addEventListener("click", function () {
         // secretTwo.classList.add('animate-fadeInDown');
     }
 });
+
+var audio = document.getElementById("myAudio");
+var audioButton = document.getElementById("audioButton");
+var clickCount = 0;
+
+function toggleAudio() {
+    if (audio.paused) {
+        audio.play();
+        audioButton.textContent = "Pause";
+        clickCount++;
+        console.log('What are u searching for bruh?');
+        if (clickCount === 10) {
+            console.log('You clicked the button 10 times!');
+        }
+    } else {
+        audio.pause();
+        audioButton.textContent = "Play";
+        console.log('If u see this, it means u hit the button twice :D');
+    }
+}
