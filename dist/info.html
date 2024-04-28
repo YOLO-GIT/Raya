@@ -52,8 +52,14 @@
                 apa efek kepada kita?
             </p>
             <div class="mt-8">
-                <!-- <source href="https://github.com/YOLO-GIT"
-                    class="bg-white text-green-500 hover:bg-green-500 hover:text-white py-2 px-4 rounded-full font-semibold transition duration-300">Click Me</source> -->
+                <audio id="myAudio" style="display: none;">
+                    <source src="../image/SELOKA HARI RAYA COVER  GUITAR INSTRUMENT VERSION.mp3" type="audio/ogg">
+                    <source src="../image/SELOKA HARI RAYA COVER  GUITAR INSTRUMENT VERSION.mp3" type="audio/mpeg">
+                </audio>
+                <button id="audioButton" class="bg-white text-green-500 hover:bg-green-500 hover:text-white py-2 px-4
+                      rounded-full
+                    font-semibold transition duration-300" onclick="toggleAudio()">Click
+                    Me</button>
             </div>
         </div>
     </section>
@@ -185,7 +191,7 @@
                         <img class="w-full transform transition-transform hover:scale-105 ease-in-out duration-500 hover:shadow-lg"
                             src="../image/qr.jpeg" alt="qr duit raya">
                     </div>
-                    <div class="flex flex-row justify-center">
+                    <div class="flex flex-col justify-center">
                         <h1
                             class="text-center sm:text-left hover:underline max-w-lg mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-black">
                             Nak pahala?
