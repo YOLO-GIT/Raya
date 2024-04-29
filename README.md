@@ -34,7 +34,7 @@ https://youtu.be/TbEddvIKBCE?si=wzh2GOds1H2Qk-rA
 https://youtu.be/j1FBxALtlOw?si=NbIkR710RmX4dYoy
 ```
 
-## <p align="center"><img src="name_template.png"></p>
+## <p align="center"><img src="name_template_latest.png"></p>
 
 # License
 
