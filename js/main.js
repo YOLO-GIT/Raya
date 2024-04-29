@@ -41,6 +41,7 @@ loader.load(
     function (xhr) {
         //While it is loading, log the progress
         console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+        console.log("Three JS Woi :D");
     },
     function (error) {
         //If there is an error, log it

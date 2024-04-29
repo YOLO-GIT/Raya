@@ -53,8 +53,9 @@ function toggleAudio() {
         audioButton.textContent = "Pause";
         clickCount++;
         console.log('What are u searching for bruh?');
-        if (clickCount === 10) {
-            console.log('You clicked the button 10 times!');
+        if (clickCount === 15) {
+            console.log('You clicked the button 15 times!');
+            console.log('https://youtu.be/DOErCJc6OIY');
         }
     } else {
         audio.pause();
