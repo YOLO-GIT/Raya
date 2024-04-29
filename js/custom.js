@@ -55,7 +55,7 @@ function toggleAudio() {
         console.log('What are u searching for bruh?');
         if (clickCount === 15) {
             console.log('You clicked the button 15 times!');
-            console.log('https://youtu.be/DOErCJc6OIY');
+            console.log('%c https://youtu.be/DOErCJc6OIY', 'font-weight:bold; background-color:black; color:white; padding:15px');
         }
     } else {
         audio.pause();
