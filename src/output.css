@@ -1753,6 +1753,10 @@ html.is-animating .transition-fade {
   max-width: 24rem;
 }
 
+.max-w-none {
+  max-width: none;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -2349,6 +2353,14 @@ html.is-animating .transition-fade {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -4326,6 +4338,10 @@ html.is-animating .transition-fade {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:max-w-xs {
+    max-width: 20rem;
   }
 
   .lg\:grid-cols-2 {
