@@ -4249,6 +4249,10 @@ html.is-animating .transition-fade {
     width: 100%;
   }
 
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
   .sm\:justify-start {
     justify-content: flex-start;
   }
